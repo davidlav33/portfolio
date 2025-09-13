@@ -342,27 +342,36 @@
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 15px;
     justify-items: center;
-    align-items: start;
   }
   .skill {
+    width: 100px;
+    height: 100px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 6px;
-    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+    gap: 8px;
+  }
+  .skill:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
   .skill img {
-    width: 24px;
-    height: 24px;
+    width: 32px;
+    height: 32px;
     object-fit: contain;
   }
   .skill span {
     font-size: 13px;
     line-height: 1.2;
+    font-weight: 600;
   }
 </style>
-
-
 
     <section id="experience" class="card">
       <h2>Professional Experience</h2>
