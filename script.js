@@ -1,5 +1,5 @@
 // Typing animation for intro
-const namePhrases = ['Divakar Lav', 'E‑commerce Manager', 'Digital Marketing Specialist'];
+const namePhrases = ['Divakar Lav', 'E‑commerce Manager', 'Digital Marketing Specialist', 'Webmaster', 'Web Designer', 'Search Engine Optimization Specialist'];
 let idx = 0, char = 0, forward = true;
 const target = document.getElementById('typed-name');
 function type() {
